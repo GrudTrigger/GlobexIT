@@ -1,0 +1,97 @@
+
+.container {
+    display: flex;
+    width: 500px;
+    height: auto;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.title {
+    flex: 1 0 0;
+    color: var(--plumbum, #262C40);
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+}
+
+.info{
+    width: 100%;
+    height: auto;
+}
+
+.infoContainer{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 40px;
+    row-gap: 14px;
+}
+
+.infoKey{
+    color: var(--plumbum, #262C40);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.infoValue{
+    color: var(--Asphalt, #8189A3);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.additionalInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.addInfo{
+    color: var(--plumbum, #262C40);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.infoParaf{
+    align-self: stretch;
+    color: var(--Asphalt, #8189A3);
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}

@@ -1,0 +1,14 @@
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.containerUsers{
+    width: 1121px;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 24px;
+    position: relative;
+}

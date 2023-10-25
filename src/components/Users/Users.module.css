@@ -1,0 +1,80 @@
+.user{
+    display: flex;
+    width: 357px;
+    height: 314px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
+
+.title{
+    color: var(--plumbum, #262C40);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px; 
+}
+
+.contantWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.phoneContainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.phoneContainer img {
+    width: 24px;
+    height: 24px;
+}
+
+.phone{
+    color: var(--Asphalt, #8189A3);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.emailContainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.emailContainer img {
+    width: 24px;
+    height: 24px;
+}
+
+.email {
+    color: var(--Asphalt, #8189A3);
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: var(--background-light-stroke, rgba(188, 195, 208, 0.50));
+    position: fixed;
+    top: 0;
+    left: 0;
+}
